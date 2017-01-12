@@ -5,8 +5,8 @@ boot_policy{'policy':
 	policy_owner => 'local',
 	enforce_vnic_name => 'yes',
 	boot_mode => 'uefi',
-	state => 'absent',	
-        ip => '172.31.219.215',
-        username => 'ucspe',
-        password => 'ucspe',
+	state => 'present',	
+        ip => 'IP Address of UCSPE server',
+        username => 'username',
+        password => 'password',
 }
